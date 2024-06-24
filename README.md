@@ -2,7 +2,7 @@
 
 https://github.com/FireBreather65/quote-generator/assets/76709163/17dbdb39-843f-495f-9c34-b4d99f4073c5
 
-**[You can find the live website here.](#)** <!-- add after initializing -->
+**[You can find the live website here.](https://firebreather65.github.io/quote-generator/)**
 
 ## Inspiration
 This project was originally created at a Vermont-based coding camp that I organized and attended. I have plans to improve upon this base in the future (scroll down to future plans for more details).
