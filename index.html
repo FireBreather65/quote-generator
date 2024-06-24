@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>FETCH workshop</title>
+		<meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	</head>
+	<body>
+		<h1>Favorite quotes:</h1>
+		<button onclick="doThing()">Get a quote!</button>
+		<em class="quote"></em>
+	</body>
+	<script>
+		function doThing() {
+			console.log('doing the thing');
+			document.querySelector('.quote').innerHTML = 'Loading...'
+			fetch('https://api.quotable.io/random')
+			.then(r => r.json())
+			.then(data => {
+				console.log(data)
+				document.querySelector('.quote').innerHTML = data.content
+				// figure out how to add more info, change API, redesign site, etc.
+				// create my own flavor text file for Hack Club's HCB API!
+			  // ADD API TO PERSONAL WEBSITE TO GET MOST RECENT SCRAPBOOK POSTS!
+			})
+		}
+	</script>
+</html>
