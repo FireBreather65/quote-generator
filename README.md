@@ -1,6 +1,6 @@
 # Quote Generator 💬
 
-[video]
+https://github.com/FireBreather65/quote-generator/assets/76709163/17dbdb39-843f-495f-9c34-b4d99f4073c5
 
 **[You can find the live website here.](#)** <!-- add after initializing -->
 
